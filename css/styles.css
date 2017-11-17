@@ -14,13 +14,13 @@ body {
   display: block;
   border-style: inset;
   border-width: 5px;
-  background-color: lightgreen;
+  background-color: #80ff80;
 }
 
 .background {
   display: block;
   float: left;
-  padding: 5px;
+  padding: 10px;
   border-style: groove;
   border-width: 2px;
   background-color: lightblue;
@@ -30,7 +30,7 @@ body {
 .interests {
   display: block;
   float: left;
-  padding: 5px;
+  padding: 10px;
   border-style: groove;
   border-width: 2px;
   background-color: lightblue;
@@ -40,7 +40,7 @@ body {
 .facts {
   display: block;
   text-align: center;
-  padding: 5px;
+  padding: 10px;
   border-style: groove;
   border-width: 2px;
   background-color: lightblue;
@@ -57,7 +57,7 @@ img.resize {
   border-width: thin;
   border-color: black;
   background-color: lightblue;
-  padding: 5px;
+  padding: 8px;
 }
 
 .bpanel {
@@ -75,6 +75,17 @@ img.resize {
   border-color: black;
   background-color: lightgreen;
   padding: 5px;
+}
+
+.apanel {
+  display: block;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  background-color: gold;
+  padding: 5px;
+  max-width: 13%;
+  text-align: center;
 }
 
 .jumbotron {
@@ -106,9 +117,11 @@ p.bonusfact {
   font-size: 9pt;
 }
 
-ul {
+.biglist {
   border-style: inset;
   border-width: thin;
+  background-color: #99ff99;
+  border-radius: 5%;
 }
 
 img.resize2 {
