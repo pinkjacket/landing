@@ -111,6 +111,8 @@ h5 {
 
 .bonusfact{
   font-style: oblique;
+  padding: 5px;
+  margin: 5px;
 }
 
 p.bonusfact {
